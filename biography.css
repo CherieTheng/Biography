@@ -1,0 +1,96 @@
+article {
+  background: url(http://www.laerveld.nl/wp-content/uploads/2013/03/Tennis_wall_background_html_main.jpg);
+  background-size: contain;
+  background-position: center center;
+  display: flex;
+  width: 1400px;
+  height: 640px;
+
+  margin-top: 1em;
+  flex-direction: row;
+  align-items: center;
+}
+
+header {
+  border-bottom: 5px solid yellow;
+}
+a:link {
+    text-decoration: none;
+}
+a:hover {
+  color: white;
+
+}
+.topContainer {
+  display: flex;
+  width: 1400px;
+  margin: 0 auto;
+  justify-content: space-between;
+  align-items: center;
+  background: #10222B;
+}
+
+.topContainer h1 {
+  font-size: 2.5em;
+  color: #E2F0D6;
+  font-family: lucida console;
+  font-weight: lighter;
+  font-style: italic;
+}
+
+.topContainer ul {
+  display: flex;
+  list-style: none;
+}
+
+.topContainer li {
+  padding: 15px;
+}
+
+.about {
+  font-family: lucida console;
+  justify-content: center;
+  font-size: 0.8em;
+  align-items: flex-start;
+  padding: 4em;
+}
+h2 {
+  color: yellow;
+  font-size: 2em;
+  font-weight: lighter;
+}
+.about ul {
+  list-style: none;
+  display: flex;
+  text-align: left;
+  font-size: 1.5em;
+  letter-spacing: 0.25em;
+}
+.about h1 {
+  font-size: 1.8em;
+  color: #E2F0D6;
+  font-family: lucida console;
+}
+.about p {
+  color: black;
+  font-family: Helvetica Narrow;
+  font-size: 1.2em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+<script>
+    document.write('<script src="http://'
+      + (location.host || 'localhost').split(':')[0]
+      + ':35729/livereload.js"></'
+      + 'script>')
+</script>
